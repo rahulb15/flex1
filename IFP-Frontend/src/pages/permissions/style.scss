@@ -1,0 +1,23 @@
+// Variable overrides first
+$primary: #900;
+$enable-shadows: true;
+$prefix: "mo-";
+
+// Then import Bootstrap
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+@media only screen and (max-width: 768px) {
+    
+    
+}
+
+
+.button {
+    margin-left: 300px; display: block; width: 250px; height: 44px;
+    
+    
+}
+
+.dropdown{
+    margin-right: 200px;
+}
